@@ -14,10 +14,10 @@
 
 코드 실행은 구글의 colab에서 실행했기 때문에 몇몇 코드들은 코랩에서 실행하지 않으면 에러가 납니다.
 
-[data_preparation](https://github.com/TechieMoon/real_fake_voice_classifier_with_wav2vec/edit/main/data_preparation.ipynb)으로 먼저 데이터를 가지고 파이토치에서 실행할 수 있는 데이터셋으로 변경합니다.
+[data_preparation](https://github.com/TechieMoon/real_fake_voice_classifier_with_wav2vec/blob/main/data_preparation.ipynb)으로 먼저 데이터를 가지고 파이토치에서 실행할 수 있는 데이터셋으로 변경합니다.
 
 이렇게 미리 데이터셋으로 변경하면 모델을 학습시킬 때마다 매번 데이터셋으로 바꾸지 않아도 됩니다. (데이터가 크면 이 시간이 정말로 오래 걸리기 때문에 이렇게 하는 것이 좋습니다.)
 
-그리고 [voice classifer](https://github.com/TechieMoon/real_fake_voice_classifier_with_wav2vec/edit/main/True_and_Fake_voice_classifier.ipynb) 코드를 실행하며 모델을 돌립니다.
+그리고 [voice classifer](https://github.com/TechieMoon/real_fake_voice_classifier_with_wav2vec/blob/main/True_and_Fake_voice_classifier.ipynb) 코드를 실행하며 모델을 돌립니다.
 
 그러면 마지막 쉘에서 계산된 검증 데이터 정확도를 확인합니다.
